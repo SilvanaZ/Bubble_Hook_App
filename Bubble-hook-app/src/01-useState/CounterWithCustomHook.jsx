@@ -7,7 +7,7 @@ export const CounterWithCustomHook = () => {
 
     return (
         <>
-            <h1>Counter with Hook: {counter}</h1>
+            <h1>Counter con Hook: {counter}</h1>
             <hr />
 
             <button onClick={() => increment(2)} className="btn btn-primary">+1</button>

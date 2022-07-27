@@ -3,24 +3,22 @@
 body {
   font-family: "Raleway";
   background-color: black;
-  color: aliceblue;
+  color: pink;
 }
 
 button {
   min-width: 130px;
   height: 40px;
-  color: #fff;
+  color: purple;
   padding: 5px 10px;
-  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
   outline: none;
   border-radius: 20px;
-  border: 2px solid pink;
+  border: 2px solid rgb(192, 69, 89);
   background: linear-gradient(315deg, #f0ecfc 0%, #c797eb 75%);
 }
 button :hover {
-  background: #fff;
+  background: purple;
 }
