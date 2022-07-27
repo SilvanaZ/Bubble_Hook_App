@@ -22,3 +22,7 @@ button {
 button :hover {
   background: purple;
 }
+
+a {
+  margin-right: 5px;
+}
