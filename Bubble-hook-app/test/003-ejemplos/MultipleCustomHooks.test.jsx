@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { MultipleCustomHooks } from '../003-ejemplos/MultipleCustomHooks.test';
+import { MultipleCustomHooks } from "../../src/03-ejemplos/MultipleCustomHooks";
 import { useCounter } from "../../src/hooks/useCounter";
 import { useFetch } from "../../src/hooks/useFetch";
 
@@ -37,14 +37,14 @@ describe("Pruebas en <MultipleCustomHooks />", () => {
 
   test("debe de mostrar un Quote", () => {
     useFetch.mockReturnValue({
-      data: [{ author: "Fernando", quote: "Hola Mundo" }],
+      data: [ { author: "Silvana", quote: "Hola Mundo" } ],
       isLoading: false,
       hasError: null,
     });
 
     render(<MultipleCustomHooks />);
     expect(screen.getByText("Hola Mundo")).toBeTruthy();
-    expect(screen.getByText("Fernando")).toBeTruthy();
+    expect(screen.getByText("Silvana")).toBeTruthy();
 
     const nextButton = screen.getByRole("button", { name: "Next quote" });
     expect(nextButton.disabled).toBeFalsy();
@@ -52,7 +52,7 @@ describe("Pruebas en <MultipleCustomHooks />", () => {
 
   test("debe de llamar la función de incrementar", () => {
     useFetch.mockReturnValue({
-      data: [{ author: "Fernando", quote: "Hola Mundo" }],
+      data: [ { author: "Silvana", quote: "Hola Mundo" } ],
       isLoading: false,
       hasError: null,
     });
