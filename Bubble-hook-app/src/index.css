@@ -17,7 +17,7 @@ button {
   outline: none;
   border-radius: 20px;
   border: 2px solid rgb(192, 69, 89);
-  background: linear-gradient(315deg, #f0ecfc 0%, #c797eb 75%);
+  background: linear-gradient(315deg, #ecfcf7 0%, #97ebcb 75%);
 }
 button :hover {
   background: purple;
