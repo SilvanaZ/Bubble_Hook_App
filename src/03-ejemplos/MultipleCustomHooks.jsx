@@ -1,7 +1,7 @@
 
 
 import { useCounter, useFetch } from '../hooks';
-import { LoadingQuote, Quote } from './';
+import { LoadingQuote, Quote } from '../03-ejemplos';
 
 
 export const MultipleCustomHooks = () => {

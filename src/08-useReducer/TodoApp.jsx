@@ -1,6 +1,5 @@
-import { useTodos } from '../hooks';
-import { TodoAdd } from '../08-useReducer/TodoAdd';
-import { TodoList } from '../08-useReducer/TodoList';
+import { useTodos } from '../hooks/useTodos';
+import { TodoAdd, TodoList } from '../08-useReducer';
 
 
 export const TodoApp = () => {

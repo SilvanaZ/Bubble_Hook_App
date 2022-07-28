@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { UserContext } from '../09-useContext/context/UserContext.jsx'
+import { UserContext } from './context/UserContext'
 
 
 export const HomePage = () => {
